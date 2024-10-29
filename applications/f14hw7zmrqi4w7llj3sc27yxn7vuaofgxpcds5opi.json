@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f14hw7zmrqi4w7llj3sc27yxn7vuaofgxpcds5opi",
+  "Issue Number": "14",
+  "Client": {
+    "Name": "Pangeo Community",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://wcrp-cmip.org/cmip-phase-6-cmip6/",
+    "Social Media": "https://wcrp-cmip.org/cmip-phase-6-cmip6/",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "CMIP began in 1995 under the auspices of the Working Group on Coupled Modelling (WGCM). The first set of common experiments involved comparing the model response to an idealized forcing – a constant rate of increase which was accomplished using a CO2 increase of 1% per year compounded.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The sixth phase of global coupled ocean-atmosphere general circulation model ensemble.\r\n\r\nThis dataset contains two S3 bucket:\r\narn:aws:s3:::esgf-world    671.7 TiB\r\narn:aws:s3:::cmip6-pds    1.0 PiB",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://registry.opendata.aws/cmip6/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, South America, Europe, Australia (continent), Antarctica",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03151449\r\nf1315096 \r\nf03055005 \r\nf03055018 \r\nf03055029\r\nf01518369\r\nf01889668\r\nf03151456\r\nf03179572\r\nf03214937\r\nf03178144\r\nf03178077\r\nf01106668 \r\nf0870558 \r\nf03151449\r\nf03151456",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "16PiB",
+    "Single Size Dataset": "1671.7TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "1000TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-10-29 13:44:15.979614211 UTC",
+    "Validated By": "shizhigu",
+    "Active": true,
+    "Updated At": "2024-10-29 13:47:32.722724539 UTC",
+    "Active Request ID": "426c51db-773f-431c-b2e7-220929992c2c",
+    "On Chain Address": "f14hw7zmrqi4w7llj3sc27yxn7vuaofgxpcds5opi",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "426c51db-773f-431c-b2e7-220929992c2c",
+      "Request Type": "First",
+      "Created At": "2024-10-29 13:44:15.979620885 UTC",
+      "Updated At": "2024-10-29 13:44:15.979622177 UTC",
+      "Active": false,
+      "Allocation Amount": "800TiB",
+      "Signers": [
+        {
+          "Github Username": "shizhigu",
+          "Signing Address": "f13a6ov3nrxllvyqkduwczpyashgu3luivodwyvgq",
+          "Created At": "2024-10-29 13:47:30.542000000 UTC",
+          "Message CID": "bafy2bzaceau4firdu2yi7nddifqrw34n5yhvzfg3wj7rnp22ym5vnzmsuzl3o"
+        }
+      ]
+    }
+  ]
+}
