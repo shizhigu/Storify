@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f16ystbzcbi7i2hskdkhpksvnjn2anhwxzksualmi",
+  "Issue Number": "19",
+  "Client": {
+    "Name": "HZ chenggong",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "http://www.chenggong.pro/",
+    "Social Media": "http://www.chenggong.pro/",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Founed in 2019,ChengGong(Hangzhou)Cultural Media is a film and television cultural communication team dedicated to brand strategy services, new media development and operation,film and television filming and production and live streaming pushing services\r\non various platforms.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Campus class filming,product filming,VR panorama filming,image promo,large outdoor performance events,short video filming,etc.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://www.chenggong.pro/page 16",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, South America, Europe, Australia (continent), Antarctica",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03226688 \r\nf03239692\r\nf03219700\r\nf03219702\r\nf01106668  \r\nf01315096   \r\nf0870558     \r\nf03055005   \r\nf03055018   \r\nf03055029   \r\nf01518369   \r\nf01889668\r\nf03202108\r\nf03239692\r\nf03254235",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "15PiB",
+    "Single Size Dataset": "1470TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "1000TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-11-27 07:17:04.118510086 UTC",
+    "Validated By": "shizhigu",
+    "Active": true,
+    "Updated At": "2024-11-27 07:17:04.118506802 UTC",
+    "Active Request ID": "d67df5ee-6ed9-4f3f-9d15-6e0670327ff1",
+    "On Chain Address": "f16ystbzcbi7i2hskdkhpksvnjn2anhwxzksualmi",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "d67df5ee-6ed9-4f3f-9d15-6e0670327ff1",
+      "Request Type": "First",
+      "Created At": "2024-11-27 07:15:05.836415233 UTC",
+      "Updated At": "2024-11-27 07:15:05.836417080 UTC",
+      "Active": false,
+      "Allocation Amount": "768TiB",
+      "Signers": [
+        {
+          "Github Username": "shizhigu",
+          "Signing Address": "f13a6ov3nrxllvyqkduwczpyashgu3luivodwyvgq",
+          "Created At": "2024-11-27 07:17:00.955000000 UTC",
+          "Message CID": "bafy2bzacecdjxp52jiprztwn7lbeu66vaefftv2ryvlby7g7fk76kbss2yh5c"
+        }
+      ]
+    }
+  ]
+}
