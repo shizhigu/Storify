@@ -35,12 +35,12 @@
     "Weekly Allocation": "1000TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
-    "Validated At": "2024-12-26 09:53:41.509603327 UTC",
+    "State": "ReadyToSign",
+    "Validated At": "2024-12-29 09:34:10.282416694 UTC",
     "Validated By": "shizhigu",
     "Active": true,
-    "Updated At": "2024-12-26 09:53:41.509599925 UTC",
-    "Active Request ID": "9e8bc3ae-81be-436b-8ee7-5d1f02162828",
+    "Updated At": "2024-12-29 09:34:10.282420739 UTC",
+    "Active Request ID": "6cc76581-78c6-488a-9f58-c45614cee8a4",
     "On Chain Address": "f1ggl2f2raedzz3kyzsqhtf77djs4zjqphepkb5ha",
     "Multisig Address": "false",
     "edited": false
@@ -61,6 +61,15 @@
           "Message CID": "bafy2bzaceczjr7swdzfcwajyhlpej5jubnhxrngwi6ce6wkj63enkksw5xjne"
         }
       ]
+    },
+    {
+      "ID": "6cc76581-78c6-488a-9f58-c45614cee8a4",
+      "Request Type": "Refill",
+      "Created At": "2024-12-29 09:34:10.282424427 UTC",
+      "Updated At": "2024-12-29 09:34:10.282425311 UTC",
+      "Active": true,
+      "Allocation Amount": "1200TiB",
+      "Signers": []
     }
   ]
 }
