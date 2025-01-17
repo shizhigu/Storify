@@ -35,11 +35,11 @@
     "Weekly Allocation": "200TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-01-17 07:58:46.872338758 UTC",
+    "State": "Granted",
+    "Validated At": "2025-01-17 08:00:36.750286936 UTC",
     "Validated By": "shizhigu",
     "Active": true,
-    "Updated At": "2025-01-17 07:58:46.872343223 UTC",
+    "Updated At": "2025-01-17 08:00:36.750283602 UTC",
     "Active Request ID": "f16e4db2-ee34-4b67-b073-f9cfe614d4e5",
     "On Chain Address": "f3qguqeldqrcizbq7vkehubw26ep4csblbalpsgrijhx5zkldx2mad2bokrek7fae6c77ek2oxc5dpofa6ihba",
     "Multisig Address": "false",
@@ -67,9 +67,16 @@
       "Request Type": "Refill",
       "Created At": "2025-01-17 07:58:46.872353145 UTC",
       "Updated At": "2025-01-17 07:58:46.872354004 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "120TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "shizhigu",
+          "Signing Address": "f13a6ov3nrxllvyqkduwczpyashgu3luivodwyvgq",
+          "Created At": "2025-01-17 08:00:35.108000000 UTC",
+          "Message CID": "bafy2bzacedqlaqmwravlljmobhz4dfc7i54xn7c5xkh2okokbsazdhbr6vefc"
+        }
+      ]
     }
   ]
 }
